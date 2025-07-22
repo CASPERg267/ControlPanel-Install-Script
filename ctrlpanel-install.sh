@@ -27,7 +27,7 @@ ufw allow 80
 ufw allow 443
 
 # Clone and set up CtrlPanel
-git clone https://github.com/ctrlpanel-gg/ctrlpanel.git /var/www/ctrlpanel
+git clone https://github.com/Ctrlpanel-gg/panel.git /var/www/ctrlpanel
 cd /var/www/ctrlpanel
 composer install --no-interaction --prefer-dist --optimize-autoloader
 cp .env.example .env
